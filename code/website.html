@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background: #6200ea;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #3700b3;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background: #6200ea;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .button {
+            display: inline-block;
+            background: #03dac6;
+            color: #000;
+            padding: 10px 20px;
+            margin: 20px auto;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .button:hover {
+            background: #018786;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Simple Website</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <h2>Hello, World!</h2>
+        <p>This is a simple webpage built with HTML, CSS, and JavaScript. Explore and enjoy!</p>
+        <a class="button" href="#" onclick="showAlert()">Click Me</a>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Simple Website</p>
+    </footer>
+
+    <script>
+        function showAlert() {
+            alert('Button clicked! Welcome to the website.');
+        }
+    </script>
+</body>
+</html>
